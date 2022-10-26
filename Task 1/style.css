@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background:rosybrown
+  }
+  img{
+    border-radius:50%;
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 150px;
+    display:inline-block;
+    text-align:center;
+  }
+  header{
+    font-size:12px;
+    display:inline;
+    margin:20%;
+    text-align:center;
+    font-family:Comic Sans;
+  }
+  nav{
+      text-align: center;
+  }
+   nav a{
+      text-align:center;
+      text-decoration: none; 
+      color: #000;
+      border-radius: 3px;
+      padding: 10px 25px ;
+     display:inline-block;
+     margin: 10px 25px ;
+     border: 0.2px solid;
+   }
+  .active{
+   background-color:lightgray;
+  }
+  a:hover{
+    background-color:lightgray;
+  }
+  .home{
+    text-align:center;
+  }
+    footer{
+       text-align:center;
+    }
+   footer a{
+     text-decoration: none; 
+      color: #000;
+      border-radius: 5px;
+      padding: 10px 25px ;
+     display:inline-block;
+     margin: 10px 25px ;
+     border: 0.2px solid;
+   }
+  .about{
+    font-family:serif;
+    margin:5%;
+  }
+  .skills{
+      background: whitesmoke;
+     font-variant: small-caps;
+     font-family: 'Times New Roman', Times, serif;
+    border:1px solid;
+  }
+  progress{
+    text-align:left;
+  }
+  .project{
+    text-align:center;
+    font-family:serif;
+  }
+  .project a{
+     text-align:center;
+      text-decoration: none; 
+      color: #000;
+      border-radius: 3px;
+      padding: 10px 25px ;
+     display:block;
+     margin: 10px 25px ;
+     border: 0.2px solid;
+    }
+    .contact{
+      margin:5%;
+    }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  .services{
+    text-align:center;
+    font-family:serif;
+  }
+  .services ul{
+    list-style:none;
+    border:2px solid;
+    text-align:justify;
+    margin:5%;
+  }
