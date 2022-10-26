@@ -3,111 +3,59 @@ html, body {
     width: 100%;
   }
   body{
-    background:rosybrown
+    box-sizing: border-box;
+    background:#6b3841;
+    color:white;
   }
-  img{
-    border-radius:50%;
-    border: 1px solid #ddd;
-    padding: 5px;
-    width: 150px;
-    display:inline-block;
+  h3{
     text-align:center;
   }
-  header{
-    font-size:12px;
-    display:inline;
-    margin:20%;
-    text-align:center;
-    font-family:Comic Sans;
+  header {
+    text-align: center;
   }
-  nav{
-      text-align: center;
-  }
-   nav a{
-      text-align:center;
-      text-decoration: none; 
-      color: #000;
-      border-radius: 3px;
-      padding: 10px 25px ;
-     display:inline-block;
-     margin: 10px 25px ;
-     border: 0.2px solid;
-   }
-  .active{
-   background-color:lightgray;
-  }
-  a:hover{
-    background-color:lightgray;
-  }
-  .home{
+  main{
     text-align:center;
   }
-    footer{
-       text-align:center;
-    }
-   footer a{
-     text-decoration: none; 
+  .container {
+    padding: 16px;
+  }
+  input[type=text], input[type=password], input[type=number],input[type=email], input[type=radio], input[type=color], input[type=date]
+  {
+    width: 70%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  .registerbtn {
+    background-color: whitesmoke;
+    color: black;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 70%;
+    opacity: 0.9;
+  }
+  .registerbtn:hover {
+    opacity:1;
+  }
+  a {
+   text-decoration: none; 
       color: #000;
       border-radius: 5px;
       padding: 10px 25px ;
-     display:inline-block;
      margin: 10px 25px ;
      border: 0.2px solid;
-   }
-  .about{
-    font-family:serif;
-    margin:5%;
+    width:30%;
+    display:inline-block;
   }
-  .skills{
-      background: whitesmoke;
-     font-variant: small-caps;
-     font-family: 'Times New Roman', Times, serif;
-    border:1px solid;
-  }
-  progress{
-    text-align:left;
-  }
-  .project{
-    text-align:center;
-    font-family:serif;
-  }
-  .project a{
-     text-align:center;
-      text-decoration: none; 
-      color: #000;
-      border-radius: 3px;
-      padding: 10px 25px ;
-     display:block;
-     margin: 10px 25px ;
-     border: 0.2px solid;
-    }
-    .contact{
-      margin:5%;
-    }
-  
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+  a:hover{
+    background: lightgray;
   }
   
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  .services{
-    text-align:center;
-    font-family:serif;
-  }
-  .services ul{
-    list-style:none;
-    border:2px solid;
-    text-align:justify;
-    margin:5%;
-  }
