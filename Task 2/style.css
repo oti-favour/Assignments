@@ -56,6 +56,6 @@ html, body {
     display:inline-block;
   }
   a:hover{
-    background: lightgray;
+    background: rgb(189, 185, 185);
   }
   
