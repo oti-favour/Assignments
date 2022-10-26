@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: monospace;
+    background-color: #f5f5f5;
+}
+main{
+    width: 50%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.first{
+    width: 100%;
+    padding: 2em;
+    background-color:rgba(255, 166, 0, 0.989);
+}
+.first h3{
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.868);
+    text-align: center;
+    margin-bottom: 1em;
+}
+.first p{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.655);
+    margin-bottom: 3em;
+}
+.first button{
+    border: solid;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    font-size: 9px;
+    color:white;
+    cursor: pointer;
+    background-color:rgba(255, 166, 0, 0.989);
+}
+.second{
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    background-color:darkcyan;
+
+}
+.second h3{
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.868);
+    text-align: center;
+    margin-bottom: 1em;
+}
+.second p{
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.655);
+    margin-bottom: 3em;
+}
+.second button{
+    border: solid;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    font-size: 7px;
+    color:white;
+    cursor: pointer;
+    background-color:darkcyan;
+}
+.third{
+    width: 100%;
+    height: auto;
+    padding: 2em;
+    background-color:darkgreen;
+   
+}
+.third h3{
+    font-size: 27px;
+    color: rgba(255, 255, 255, 0.868);
+    text-align: center;
+    margin-bottom: 1em;
+}
+.third p{
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.655);
+    margin-bottom: 3em;
+}
+.third button{
+    border: solid;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    font-size: 9px;
+    color:white;
+    cursor: pointer;
+    background-color:darkgreen;
+}
